@@ -1,0 +1,33 @@
+.content-webinar {
+    background-color: #8d0a7e;
+}
+
+.webinar-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.webinar-info {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 0;
+    gap: 20px;
+    padding: 50px 0;
+}
+
+.webinar-info h2 {
+    line-height: 1.3;
+    font-size: 2.25em;
+}
+
+.webinar-info h3 {
+    font-weight: normal;
+    font-size: 1.5em;
+    line-height: 1.25em;
+}
+
+.webinar-img {
+    width: 224px;
+}
+
