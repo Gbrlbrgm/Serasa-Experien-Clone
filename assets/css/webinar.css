@@ -8,6 +8,7 @@
     justify-content: space-evenly;
     flex-direction: column;
     padding: 50px 0;
+    gap: 15px;
 }
 
 .webinar-info h2 {
