@@ -22,3 +22,17 @@ img {
     grid-template-columns: 1fr 1fr;
     padding: 0 15px;
 }
+
+.smallText {
+    font-size: 0.5em;
+}
+
+.highlightedText {
+    color: #fe3196;
+    font-weight: 700;
+}
+
+.bi {
+    font-size: 4em;
+    color: #fe3196;
+}
