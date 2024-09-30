@@ -1,5 +1,10 @@
 @import "./animation.css";
 
+.botaoAlternarSection{
+    position: absolute;
+    left: 0;
+}
+
 .content-middlesection {
     width: 100%;
     background-color: #741d98;
@@ -42,3 +47,8 @@
     }
 }
 
+@media (max-width: 400px) {
+    .middlesection-container h4, .middlesection-container h5 {
+        font-size: 1.5em;
+    }
+}

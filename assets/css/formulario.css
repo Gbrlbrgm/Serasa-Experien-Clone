@@ -1,0 +1,95 @@
+.formulario .container h3 {
+    font-size: 1.45em;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.form-acesso {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-campos {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.form-campos input {
+    display: block;
+    width: 100%;
+    height: 23px;
+    padding: 4px 8px 4px 0px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    margin: 0;
+    margin-top: -10px;
+}
+
+.form-campos label {
+    display: inline-block;
+    opacity: 0.75;
+}
+
+.form-alert {
+    color: red;
+    font-weight: bolder;
+    margin-left: 2px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.submit {
+    color: #FFFFFF;
+    margin-top: 10px;
+    text-decoration: none !important;
+    background-color: #00498e;
+    background-image: none;
+    text-shadow: none;
+    padding-top: 11px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 11px;
+    font-size: 14px;
+    border-radius: 5px;
+    border-style: none;
+    display: inline-block;
+    font-weight: 700;
+    cursor: pointer;
+    width: 130px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1000px) {
+    .form-campos {
+        flex-direction: column;
+        margin-bottom: 20px;
+        gap: 0px;
+    }
+
+    .form-campos input {
+        width: 100%;
+        padding: 0;
+        height: 36px;
+    }
+
+    .form-group {
+        align-items: start;
+        width: 100%;
+    }
+
+    .form-acesso {
+        width: 100%;
+    }
+}
