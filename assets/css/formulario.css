@@ -1,3 +1,9 @@
+@-moz-document url-prefix() {
+    .form-group {
+        gap: 7px;
+    }
+}
+
 .formulario .container h3 {
     font-size: 1.45em;
     font-weight: bold;
